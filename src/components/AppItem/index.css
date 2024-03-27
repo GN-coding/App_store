@@ -1,0 +1,36 @@
+.app-card-img {
+  height: 60px;
+  width: 60px;
+}
+.applist-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 50%;
+  list-style-type: none;
+}
+
+.app-card {
+  background-color: white;
+  text-align: center;
+  border-radius: 10px;
+  padding: 1rem;
+  margin: 0.5rem;
+  height: 150px;
+  width: 150px;
+}
+.app-con {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 700px) {
+  .app-card {
+    height: 120px;
+    width: 120px;
+    max-width: 42%;
+    text-align: center;
+  }
+}

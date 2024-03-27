@@ -1,0 +1,25 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Bree Serif';
+}
+.App-container {
+  background-image: linear-gradient(to bottom, #fff1eb, #ace0f9);
+
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  margin-top: 1rem;
+  border-radius: 8px;
+  height: 30px;
+  padding: 1rem;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/app-store/app-store-search-img.png');
+  background-repeat: no-repeat;
+  background-size: 30px;
+  background-position: right;
+  font-size: 18px;
+}
